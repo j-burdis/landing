@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.card-white {
+    height: 320px;
+    width: 240px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.card-white img {
+    width: 150px;
+    margin-top: 8px;
+}
+
+.card-white-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-white-info p {
+    color: #C0C0C0;
+}
